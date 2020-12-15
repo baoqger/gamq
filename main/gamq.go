@@ -2,10 +2,11 @@ package main
 
 import (
 	"flag"
+	"runtime"
+
 	"github.com/FireEater64/gamq"
 	log "github.com/cihub/seelog"
-	"github.com/davecheney/profile"
-	"runtime"
+	"github.com/pkg/profile"
 )
 
 func main() {
